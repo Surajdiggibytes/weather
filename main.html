@@ -32,7 +32,7 @@
 
         <div class="temp">
             <div class="temp-txt"> 30° C | 86 F</div>
-            <div class="img"><img src="/images/clrsky.jpg" class="image" width="130px " style="border-radius: 10px;"></div>
+            <div class="img"><img src="images/clrsky.jpg" class="image" width="130px " style="border-radius: 10px;"></div>
         </div>
 
         <div class="nature">
@@ -87,22 +87,22 @@
     switch (data.weather[0].main.toLowerCase()) {
         case 'clear':
         case 'sunny':
-            image.src = "/images/clrsky.jpg";
+            image.src = "images/clrsky.jpg";
             break;
         case 'clouds':
-            image.src = "/images/cloud.jpg";
+            image.src = "images/cloud.jpg";
             break;
         case 'rain':
         case 'dizzle':
-            image.src = "/images/rainy2.jpg";
+            image.src = "images/rainy2.jpg";
             break;
         case 'smoke':
         case 'haze' :
-            image.src = "/images/mist.png";
+            image.src = "images/mist.png";
             break;
         
         default:
-            image.src = "/images/cloudsun.jpg"; 
+            image.src = "images/cloudsun.jpg"; 
     };
 
         }
